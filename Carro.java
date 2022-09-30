@@ -31,4 +31,15 @@ public class Carro {
     public int getNumPortas() {
         return numPortas;
     }
+    
+    public Carro() {
+        
+    }
+    
+    public Carro(String tipo, String cor, String placa, int numPortas) {
+        this.tipo = tipo;
+        this.cor = cor;
+        this.placa = placa;
+        this.numPortas = numPortas;
+    }
 }
