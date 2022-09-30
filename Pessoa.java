@@ -31,4 +31,15 @@ public class Pessoa {
     public int getIdade() {
         return idade;
     }
+    
+    public Pessoa() {
+        
+    }
+    
+    public Pessoa(String nome, String corDoCabelo, String biotipo, int idade) {
+        this.nome = nome;
+        this.corDoCabelo = corDoCabelo;
+        this.biotipo = biotipo;
+        this.idade = idade;
+    }
 }
