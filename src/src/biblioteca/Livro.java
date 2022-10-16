@@ -63,4 +63,19 @@ public class Livro {
     public int getNumFolhas() {
         return numFolhas;
     }
+
+
+    public Livro() {
+
+    }
+    public Livro(String titulo, String autores, String area, String editora, String edicao, int ano, int numFolhas) {
+        this.titulo = titulo;
+        this.autores = autores;
+        this.area = area;
+        this.editora = editora;
+        this.edicao = edicao;
+        this.ano = ano;
+        this.numFolhas = numFolhas;
+
+    }
 }

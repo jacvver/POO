@@ -1,3 +1,5 @@
+package troca;
+
 public class Carro {
     String tipo;
     String cor;

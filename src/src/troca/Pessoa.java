@@ -1,3 +1,5 @@
+package troca;
+
 public class Pessoa {
     String nome;
     String corDoCabelo;
