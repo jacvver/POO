@@ -1,3 +1,5 @@
+package biblioteca;
+
 public class Usuario {
     String nome;
     String sexo;
